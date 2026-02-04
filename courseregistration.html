@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+    <style>
+        body{
+            background-color:navy ;
+            color: yellow;
+        }
+    </style>
+    <h1>Course Registration Form</h1>
+</head>
+<body>
+     <form action=.assests/2sTAP%20ACADEMY%20BTM">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <table>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+        
+                <td><input name="fname" id="fname" type="text" placeholder="Akshaya" required/></td>
+            </tr>
+            <tr>
+                <td> <label for="sname">SurName</label></td>
+                <td><input type="text" name="sname" id="sname" placeholder="ex:t"/><br></td>
+            </tr>
+            <tr>
+                <td><label for="mobilenumber">Mobile number</label></td>
+                <td><input type="tel" name="mobilenumber" id="mobilenumber" placeholder="9876543223" required/><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+            <td> <input type="email" name="email" id="email" placeholder="exam@gmail.com" required/></td>
+        </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" id="password"/></td>
+            </tr>
+            <tr>
+                <td><label for="cpassword">Confirm Password</label></td>
+                <td><input type="password" name="cpassword" id="cpassword" required/></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB</label></td>
+                <td><input type="date" name="dob" id="dob" required/></td>
+            </tr>
+            <tr>
+                <td><label for="age">AGE</label></td>
+                <td><input type="number" name="age" id="age" min="18" max="65" required/><br>
+</td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="gender" id="gender" value="MALE"/><label>MALE</label>
+<input type="radio"  name="gender"id="gender" value="FEMALE"/><label>FEMALE</label>
+<input type="radio"name="gender" id="gender"  value="OTHERS"/><label>OTHERS</label>
+<br></td>
+            </tr>
+            <tr>
+                <td><label  for="select country">Select Country</label></td>
+                <td><select name="select country" id="select country">
+    <option value="INDIA">INDIA</option>
+    <option value="USA">USA</option>
+    <option value="GERMANY">GERMANY</option>
+</select></td>
+            </tr>
+            <tr>
+                <td><label for="upload" >UPLOAD PIC</label></td>
+                <td><input type="file" name="upload" id="upload"></td>
+            </tr>
+            </fieldset>
+            <tr>
+                <td><input type="reset"/>
+</td>
+    
+                <td> <input type="submit"/></td></tr>
+                <tr>
+                <td><label for="">FEEDBACK
+                    <td><textarea style="resize: none;"    name="" id="" rows="5" col="50"></textarea></td>
+                </label></td>
+            </tr>
+
+        </table>
+       
+</form>
+</body>
+</html>
